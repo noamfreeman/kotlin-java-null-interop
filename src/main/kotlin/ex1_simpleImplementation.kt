@@ -9,7 +9,7 @@ fun main() {
     kotlinImpl.foo("hi")
     kotlinImpl.bar("there")
 
-//    a.foo(null) // will this compile?
+//    kotlinImpl.foo(null) // will this compile?
 
     AJavaWrapper(kotlinImpl).foo(null) // will this run?
 }
